@@ -77,3 +77,34 @@ body {
     padding: 25px;
     border-radius: 35px;
 }
+
+.card_container {
+    color: black;
+    display: block;
+    
+}
+
+.card_container .card_title {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    text-align: center;
+    max-width: 175px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: #1f2937;
+}
+
+.card_container .cards img {
+    width: 100px;
+
+}
